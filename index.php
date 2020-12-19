@@ -1,6 +1,6 @@
 <?php session_start();
 
- include('db.php');
+ include('./include/db.php');
  
  
 
@@ -19,7 +19,7 @@ if($num > 0)
 		$_SESSION['user'] =  $fld_name;
 		
 		
-		echo "<script>alert('Successfully Done..');location.replace('welcome.php');</script>";
+		echo "<script>alert('Successfully Done..');location.replace('./include/welcome.php');</script>";
 		
 	}
 

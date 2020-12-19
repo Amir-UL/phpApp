@@ -22,7 +22,7 @@
    if($_SESSION['user'] == "")
    {
 	   
-	   echo "<script>alert('Restricted Area ...');location.replace('index.php');</script>";
+	   echo "<script>alert('Restricted Area ...');location.replace('../index.php');</script>";
    }
 
  echo "Welcome " . $_SESSION['user'];
